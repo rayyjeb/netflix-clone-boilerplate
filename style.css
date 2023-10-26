@@ -338,22 +338,17 @@ body{
       margin-left: 120px;
     }
    .rank{
-    height: 50px;
+    /* height: 80px; */
     margin-top: auto;
-
+    /* position: absolute */
   
 }
-
-
-        .secondstackmovies {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            
-
-        }
- 
+.secondstackmovies {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
     .headersecondstack{
     display: flex;
     flex-direction: column;
@@ -364,12 +359,12 @@ body{
     font-size: 20px;
     margin-top: 40px;
 }
-    #movies>img{
-        margin-top: 30px;
-    }
-    .badge{
-       display: none;
-    }
+#movies>img{
+    margin-top: 30px;
+}
+.badge{
+   display: none;
+}
     .headersecondstack>img{
         display: none
     }
